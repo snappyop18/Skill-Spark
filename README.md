@@ -19,3 +19,4 @@ SkillSpark is a responsive promotional website for tech students.
 =======
 - Git & GitHub
 >>>>>>> 2e6a1dc507b852d1d9ce2168489dde417c269296
+<!--For Commits Only-->
