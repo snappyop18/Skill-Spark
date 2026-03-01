@@ -14,4 +14,8 @@ SkillSpark is a responsive promotional website for tech students.
 - HTML5
 - CSS3
 - Bootstrap 5
+<<<<<<< HEAD
 - Git & GitHub
+=======
+- Git & GitHub
+>>>>>>> 2e6a1dc507b852d1d9ce2168489dde417c269296
