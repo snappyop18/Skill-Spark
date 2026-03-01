@@ -1,0 +1,259 @@
+/* ===============================
+   SkillSpark Custom CSS
+   =============================== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f8f9fc;
+}
+
+/* ===============================
+   Navbar
+   =============================== */
+
+.navbar {
+    transition: 0.4s;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #1cc88a !important;
+}
+
+/* ===============================
+   Hero Section
+   =============================== */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* ===============================
+   Buttons
+   =============================== */
+
+.btn {
+    transition: 0.3s ease;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* ===============================
+   Cards
+   =============================== */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.badge {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+/* ===============================
+   Why Choose Us Section
+   =============================== */
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* ===============================
+   Progress Bars
+   =============================== */
+
+.progress {
+    height: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-weight: 500;
+}
+
+/* ===============================
+   Timeline Section
+   =============================== */
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 3px solid #4e73df;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background: #1cc88a;
+    border-radius: 50%;
+}
+
+/* ===============================
+   Forms
+   =============================== */
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(78,115,223,0.4);
+    border-color: #4e73df;
+}
+
+.form-check-input:checked {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+/* ===============================
+   Contact Map
+   =============================== */
+
+iframe {
+    border-radius: 15px;
+}
+
+/* ===============================
+   Footer
+   =============================== */
+
+footer {
+    margin-top: 50px;
+    background: #2e2e2e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #1cc88a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   Scroll To Top Button
+   =============================== */
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#scrollTopBtn:hover {
+    background: #1cc88a;
+}
+
+/* ===============================
+   Dark Mode (Optional Bonus)
+   =============================== */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card,
+.dark-mode form {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e !important;
+}
+
+/* ===============================
+   Responsive Adjustments
+   =============================== */
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
